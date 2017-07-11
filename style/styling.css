@@ -1,0 +1,65 @@
+h1{
+	padding-top: 50px;
+}
+ 
+p {
+    text-indent: 50px;
+    width: 700px;
+    padding: 10px;
+}
+
+div{
+	margin: 30px 0px;
+	width: 100vw;
+	height: auto;
+	border-bottom: solid 1px black;
+}
+
+img{
+	box-sizing: border-box;
+	max-width: 500px;
+	height: auto;
+}
+
+ol,ul{
+	list-style: none;
+}
+
+#menu-bar {
+	position: fixed;
+	width: 100%;
+	min-height: 42px;
+	z-index: 2;
+	margin: -20px;
+	background-color: black;
+}
+
+#menu-bar ul{
+	display: block;
+	max-width: 100vw;
+	margin: auto;
+}
+
+#menu-bar li{
+	float: left;
+}
+
+#menu-bar li a{
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-style: bold;
+	width: 200px;
+	text-align: center;
+}
+
+#menu-bar li a:hover{
+	background-color: red;
+}
+
+#index{
+	width: 100%;
+}
